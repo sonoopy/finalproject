@@ -15,7 +15,7 @@ import org.springframework.context.annotation.ComponentScan;
 */
 @SpringBootApplication //실행
 
-
+@ComponentScan(basePackages = "upload")
 @ComponentScan(basePackages = "boardmapper")
 @MapperScan(basePackages = "boardmapper")
 @ComponentScan(basePackages = "websocket")
